@@ -1,3 +1,5 @@
-exports.sayHi = function() {
-  console.log("hello");
+var app = {
+    var1: function() {
+            console.log(n);                      
+        }
 };
