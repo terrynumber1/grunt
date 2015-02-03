@@ -6,17 +6,17 @@ grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.initConfig({
 	srcFiles: ["src/a.js", "src/b.js", "src/c.js"],
 	concat: {
-		target1: {
+		t1: {
 			files: {
 				"build/abc.js": "<%= srcFiles %>"
 			}
-		}
+		}		
 	},
 	watch: {
-		target1: {
+		t1: {
 			files: "<%= srcFiles %>",
 			tasks: ["concat"]
-		}
+		}		
 	}
 });
 // Define the default task
